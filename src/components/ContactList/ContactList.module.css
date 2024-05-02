@@ -1,0 +1,34 @@
+ul {
+  border: 1px ridge rgba(158, 158, 158, 0.6);
+  border-radius: 4px;
+}
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  padding: 3px;
+}
+.buttonDelete {
+  min-width: 45px;
+  height: 25px;
+  margin: auto;
+  font-size: 10px;
+  margin-left: 10px;
+}
+td {
+  text-align: left;
+}
+
+th {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.liName {
+  font-weight: 600;
+}
+.noContacts {
+  padding: 20px;
+  font-weight: 500;
+}

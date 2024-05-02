@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+button {
+  margin: 8px;
+  font-size: 10px;
+}
+
+.input:valid {
+  box-shadow: rgba(30, 247, 1, 0.447) 0px 0px 0px 1px,
+    rgba(71, 230, 8, 0.538) 0px 0px 10px 1px,
+    rgb(1, 203, 45, 0.1) 0px 0px 0px inset;
+
+  /* background-color:; */
+}
+
+.input:invalid {
+  box-shadow: rgba(247, 1, 1, 0.436) 0px 0px 5px 1px,
+    rgba(230, 8, 8, 0.428) 0px 0px 10px 1px,
+    rgba(203, 8, 1, 0.56) 0px 0px 0px inset;
+}
